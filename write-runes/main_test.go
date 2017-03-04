@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"bytes"
+	"fmt"
 	"io"
 	"strings"
 	"testing"
@@ -51,5 +52,12 @@ func BenchmarkBufioWriteRune(b *testing.B) {
 			bw.WriteRune(r)
 		}
 		bw.Flush()
+	}
+}
+
+func BenchmarkFmtFprint(b *testing.B) {
+	var w bytes.Buffer
+	for i := 0; i < b.N; i++ {
+		fmt.Fprint(&w, string(s))
 	}
 }
