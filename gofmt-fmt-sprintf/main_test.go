@@ -1,4 +1,5 @@
 package main
+
 // from: func replaceTempFilename(diff []byte, filename string) ([]byte, error)
 //   in cmd/gofmt/gofmt.go
 
