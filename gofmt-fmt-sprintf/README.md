@@ -1,3 +1,5 @@
+    ∆ go version
+    go version devel +6f4a4585f2 Thu Mar 23 00:37:51 2017 +0000 darwin/amd64
     ∆ go test -bench . -benchmem
     goos: darwin
     goarch: amd64
