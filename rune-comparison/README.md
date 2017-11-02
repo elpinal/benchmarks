@@ -1,6 +1,9 @@
+```
 $ go version
 go version devel +fb1fd6aee6 Wed Nov 1 00:30:39 2017 +0000 darwin/amd64
+```
 
+```
 $ go test -bench . -benchmem -count 4
 goos: darwin
 goarch: amd64
@@ -77,3 +80,4 @@ BenchmarkDeepEqual/100(diff)-4           3000000               488 ns/op        
 BenchmarkDeepEqual/100(diff)-4           3000000               484 ns/op              80 B/op          6 allocs/op
 BenchmarkDeepEqual/100(diff)-4           3000000               475 ns/op              80 B/op          6 allocs/op
 BenchmarkDeepEqual/100(diff)-4           3000000               478 ns/op              80 B/op          6 allocs/op
+```
