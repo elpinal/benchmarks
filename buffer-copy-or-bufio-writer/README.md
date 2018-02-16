@@ -1,3 +1,4 @@
+```
 $ go version
 go version devel +6631f22776 Thu Jan 11 02:39:43 2018 +0000 darwin/amd64
 
@@ -54,3 +55,4 @@ BenchmarkBufferFprintf-4          100000             11721 ns/op           20665
 BenchmarkBufferFprintf-4          100000             12626 ns/op           20666 B/op          3 allocs/op
 PASS
 ok      github.com/elpinal/benchmarks/buffer-copy-or-bufio-writer       75.735s
+```
