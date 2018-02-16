@@ -1,4 +1,3 @@
-<details><summary>
 ```
 $ go version
 go version devel +6631f22776 Thu Jan 11 02:39:43 2018 +0000 darwin/amd64
@@ -46,7 +45,6 @@ PrintfError/9-4       1.00 ± 0%      0.00       -100.00%  (p=0.002 n=6+6)
 PrintfError/10-4      1.00 ± 0%      0.00       -100.00%  (p=0.002 n=6+6)
 PrintfError/11-4      1.00 ± 0%      0.00       -100.00%  (p=0.002 n=6+6)
 ```
-</summary>
 
 ```
 $ go test -count=6 -benchmem -bench=.
@@ -200,10 +198,8 @@ BenchmarkImplicit/11-4           5000000               336 ns/op               0
 PASS
 ok      github.com/elpinal/benchmarks/printf-error      276.084s
 ```
-</details>
 
 
-<details><summary>
 ```
 $ go version
 go version devel +41d3d153eb Fri Feb 16 03:31:46 2018 +0000 darwin/amd64
@@ -250,7 +246,6 @@ PrintfError/9-4       1.00 ± 0%      0.00       -100.00%  (p=0.002 n=6+6)
 PrintfError/10-4      1.00 ± 0%      0.00       -100.00%  (p=0.002 n=6+6)
 PrintfError/11-4      1.00 ± 0%      0.00       -100.00%  (p=0.002 n=6+6)
 ```
-</summary>
 
 ```
 $ go test -count=6 -benchmem -bench=.
@@ -404,4 +399,3 @@ BenchmarkImplicit/11-4           5000000               341 ns/op               0
 PASS
 ok      github.com/elpinal/benchmarks/printf-error      276.922s
 ```
-</details>
