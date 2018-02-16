@@ -204,6 +204,7 @@ ok      github.com/elpinal/benchmarks/printf-error      276.084s
 $ go version
 go version devel +41d3d153eb Fri Feb 16 03:31:46 2018 +0000 darwin/amd64
 
+$ benchstat old.txt new.txt
 name           old time/op    new time/op    delta
 PrintfError/0-4     98.9ns ± 1%   198.5ns ± 3%  +100.78%  (p=0.002 n=6+6)
 PrintfError/1-4      136ns ± 4%     198ns ± 2%   +45.96%  (p=0.002 n=6+6)
